@@ -77,6 +77,7 @@ fun PlaceFormScreen(
         ratingValue !in 1.0..5.0 -> "Rating harus antara 1.0 dan 5.0"
         else -> null
     }
+    val descriptionError = if (description.length > 200) "Deskripsi maksimal 200 karakter" else null
     val isValid = listOf(nameError, categoryError, locationError, ratingError).all { it == null }
 
     fun resetForm() {

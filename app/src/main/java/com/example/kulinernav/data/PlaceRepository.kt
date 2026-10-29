@@ -22,6 +22,10 @@ object PlaceRepository {
         Place(9, "Pempek Candy", "Pempek", "Palembang", 4.6,
             "Pempek kapal selam dan lenjer dengan cuko yang asam pedas manis."),
         Place(10, "Es Teler 77", "Minuman", "Jakarta Barat", 4.3,
-            "Es teler berisi alpukat, kelapa muda, dan nangka dengan susu kental manis.")
+            "Es teler berisi alpukat, kelapa muda, dan nangka dengan susu kental manis."),
+        Place(11, "Mie Aceh Seulawah", "Mie", "Jakarta Pusat", 4.5,
+            "Mie kuning tebal berbumbu kari khas Aceh, tersedia versi goreng dan kuah."),
+        Place(12, "Coto Makassar Daeng", "Coto", "Makassar", 4.6,
+            "Coto berkuah kental dari kacang dan rempah, disantap dengan ketupat.")
     )
 }

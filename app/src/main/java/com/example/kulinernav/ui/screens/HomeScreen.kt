@@ -66,7 +66,7 @@ fun HomeScreen(
             TopAppBar(
                 title = {
                     Column {
-                        Text("Kuliner Nusantara", fontWeight = FontWeight.Bold)
+                        Text("Kuliner Nusantara Pilihan", fontWeight = FontWeight.Bold)
                         Text(
                             "${places.size} tempat",
                             style = MaterialTheme.typography.bodySmall

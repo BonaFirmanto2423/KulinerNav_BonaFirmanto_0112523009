@@ -2,6 +2,9 @@
 
 Tugas Pertemuan 5 — Multi-Screen Navigation Challenge (tema NIM akhir 8–9: **Daftar Tempat / Kuliner**).
 
+**Nama:** Bona Firmanto
+**NIM:** 0112523009
+
 ## Fitur
 - **Home**: `LazyColumn` berisi 10 tempat kuliner (data in-memory), FAB *Tambah*, menu *Tes buka ID invalid (999)*.
 - **Detail**: membuka data sesuai `id`; tombol Edit dan Hapus (dengan dialog konfirmasi).

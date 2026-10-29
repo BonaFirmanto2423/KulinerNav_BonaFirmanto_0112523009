@@ -78,7 +78,7 @@ fun PlaceFormScreen(
         else -> null
     }
     val descriptionError = if (description.length > 200) "Deskripsi maksimal 200 karakter" else null
-    val isValid = listOf(nameError, categoryError, locationError, ratingError).all { it == null }
+    val isValid = listOf(nameError, categoryError, locationError, ratingError, descriptionError).all { it == null }
 
     fun resetForm() {
         name = startName
@@ -151,6 +151,8 @@ fun PlaceFormScreen(
                 onValueChange = { description = it },
                 label = { Text("Deskripsi (opsional)") },
                 minLines = 3,
+                isError = descriptionError != null,
+                supportingText = { Text(descriptionError ?: "${description.length}/200") },
                 modifier = Modifier.fillMaxWidth()
             )
 
